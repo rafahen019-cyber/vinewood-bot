@@ -211,9 +211,5 @@ client.on(Events.InteractionCreate, async interaction => {
       ]
     });
 
-    const log = new EmbedBuilder()
-      .setColor("#5865F2")
-      .setTitle("📜 LOG DE REGISTRO")
-      .setDescription(`
-👤 Jogador: <@${userId}>
-🛡️ Staff: <@${staff.
+   });
+client.login(process.env.TOKEN);
