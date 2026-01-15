@@ -207,13 +207,10 @@ client.on(Events.InteractionCreate, async interaction => {
           .setTitle(acao === "aprovar"
             ? "✅ REGISTRO APROVADO"
             : "❌ REGISTRO REPROVADO"
-          )
+
       ]
     });
 
     }
   }
 });
-
-client.login(process.env.TOKEN);
-
